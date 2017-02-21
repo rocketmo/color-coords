@@ -1,0 +1,39 @@
+// SAMPLE LEVEL
+3		// width
+4		// height
+ddd		// grid tiles
+ibi		// grid tiles
+obi		// grid tiles
+orr		// grid tiles
+0		// player.x
+3		// player.y
+1		// number of tools
+cr		// tool 1 id
+2		// tool1.x
+3		// tool1.y
+cb		// tool 2 id
+2		// tool2.x
+0		// tool2.y
+ggg		// puzzle solution
+rrr 	// puzzle solution
+bbb 	// puzzle solution
+ooo 	// puzzle solution
+
+
+// COORDINATES
+// coordinates start at (0, 0), the bottom left of the grid
+
+// TILE CODES
+// d => default
+// i => ice
+// r => dark
+// o => block
+// b => blank
+
+// TOOL CODES
+// c[colour] => colour picker; colour is one of [r, b, y, o, p, g], representing all possible colours
+// s[colour] => splash
+// l[colour] => line shot; next line contains number of directions; line after contains the directions [u, d, l, r]
+// e => eraser
+// t => teleporter; next two lines represent location of first teleporter, next two after represent the location of the other teleporter
+// r[direction] => redirection
