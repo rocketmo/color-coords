@@ -7,5 +7,10 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
+    guid: 76a1491c372423b40be450964bbbc844
   - enabled: 1
     path: Assets/Scenes/Puzzle.unity
+    guid: e172e744e37e06844b7648643730176c
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: 00000000000000000000000000000000

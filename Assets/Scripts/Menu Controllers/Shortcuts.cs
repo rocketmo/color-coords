@@ -30,6 +30,13 @@ public class Shortcuts : MonoBehaviour {
     /// Returns to level select screen
     /// </summary>
     public void LevelSelect() {
+        SceneManager.LoadScene("LevelSelect", LoadSceneMode.Single);
+    }
+
+    /// <summary>
+    /// Returns to main menu
+    /// </summary>
+    public void ReturnToMenu() {
         SceneManager.LoadScene("Menu", LoadSceneMode.Single);
     }
 
